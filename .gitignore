@@ -1,0 +1,62 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+.env
+.env.production
+
+# secrets / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+secrets.json
+credentials.json
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
+
+# editor / os
+.idea/
+.vscode/
+Thumbs.db
+
+# agent-local state (machine-specific permissions, not shared config)
+.claude/settings.local.json
+
+# scratch / temp working dirs
+_init_temp/
+swift-pos-temp/
+*.log
+api.py
+_fix_normalizer.py
